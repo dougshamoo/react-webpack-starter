@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack-starter",
+  "version": "1.0.0",
+  "description": "React webpack starter kit, es6 + jsx + babel + eslint",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-dev": "webpack-dev-server --inline --hot",
+    "build": "webpack",
+    "postinstall": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougshamoo/react-webpack-starter.git"
+  },
+  "author": "Doug Shamoo <doug.shamoo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougshamoo/react-webpack-starter/issues"
+  },
+  "homepage": "https://github.com/dougshamoo/react-webpack-starter#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "express": "^4.14.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-plugin-react": "^6.2.0",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
